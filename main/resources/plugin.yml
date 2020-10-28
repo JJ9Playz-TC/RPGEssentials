@@ -1,0 +1,81 @@
+name: RPGEssentials
+version: ${project.version}
+main: me.jj9playz.rpgessentials.RPGEssentials
+api-version: 1.16
+authors: [ JJ9_Playz ]
+description: A Basic RPG Essentials Plugin
+
+commands:
+  rpge:
+    description: Main Command
+    usage: /<command>
+  class:
+    description: Lists all the roles/classes you can be
+    usage: /<command> [set] [role]
+    permission: rpge.classChange
+  race:
+    description: Lists all the Races you can be
+    usage: /<command> [set] [race]
+    permission: rpge.changeRace
+  amber:
+    description: Give amber
+    usage: /<command>
+  elfpick:
+    description: give elfpick
+    usage: /<command>
+  bangui:
+    description: Brings up a GUI of all the players allowing you to ban them.
+    usage: /<command>
+    permission: rpge.ban.gui
+  character:
+    description: Brings up the Character Creation Screen.
+    usage: /<command>
+
+permissions:
+  rpge.*:
+    description: Users with this Permission can run any command, !VERY DANGEROUS!
+    default: op
+  rpge.changeRole:
+    description: Users with this permission can Change their class to their unlcoked ones
+  rpge.hunter:
+    description: Users with this permission can access Hunter Commands
+    default: op
+  rpge.villager:
+    description: Users With this permission can access Villager Commands
+    default: true
+  rpge.mage:
+    description: Users with this permission can access Mage Commands
+    default: op
+  rpge.archer:
+    description: Users with this permission can access Archer Commands
+    default: op
+  rpge.titan:
+    description: Users with this permission can access Titan Commands
+    default: op
+  rpge.knight:
+    description: Users with this permission can access Knight Commands
+    default: op
+  rpge.elf:
+    description: Users with this permission can change their race to Elf
+    default: op
+  rpge.human:
+    description: Users with this permission can change their race to Human
+    default: op
+  rpge.orc:
+    description: Users with this permission can change their race to Orc
+    default: op
+  rpge.angel:
+    description: Users with this permission can change their race to Angel
+    default: op
+  rpge.amber:
+    default: op
+  rpge.elfpick:
+    default: op
+  rpge.ban.gui:
+    default: op
+    description: Allows user to use the ban GUI
+  rpge.ban.avoid:
+    default: op
+    description: Allows user to avoid bans
+
+

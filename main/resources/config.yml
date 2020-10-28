@@ -1,0 +1,23 @@
+# Thank you for downloading RPGE
+# This project is a long project and will take many years to fully complete
+# I hope you enjoy using the plugin and if you have any concerns DM me on Spigot
+# or Discord JJ9_Playz#1827 or https://discord.gg/TVwvws3
+# PLACEHOLDERS
+# %player% : Replaces with the players name.
+# %nl% : Replaces with a New Line \n
+# If You See CCE above any command it means that you can use color codes with the Character '&'
+#
+#
+#
+#
+#CCE
+Prefix: '&2&lRPGE&r'
+#CCE
+Welcome_Message: 'Set this up in the Config.YML file'
+#CCE
+Global_Welcome_Message: '&6%player% has entered the Realm'
+#
+#
+# CCE
+Global_Quit_Message: '&6%player% has left the Realm'
+
